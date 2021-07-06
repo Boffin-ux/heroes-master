@@ -1,0 +1,66 @@
+.filter{
+   display: flex;
+   justify-content: space-between;
+   padding-right: 6px;
+}
+#select-movie,
+#select-gender,
+#clear {
+   width: 400px;
+   height: 50px;
+   border: 2px solid #6a6a96;
+   border-radius: 5px;
+   margin: 10px 5px;
+   font-size: 15px;
+   font-weight: bold;
+}
+#clear{
+   cursor: pointer;
+}
+option:hover {
+   box-shadow: 0 0 10px 100px orange inset;
+}
+.wrapper{
+   width: 1280px;
+   margin: 0 auto;
+}
+.heros {
+   display: flex;
+   flex-wrap: wrap;
+}
+.hero-card {
+   width: 300px;
+   display: flex;
+   flex-direction: column;
+   flex: 0 0 23%;
+   border: 1px solid #d4cece;
+   margin: 10px 5px;
+   border-radius: 5px;
+   padding: 6px;
+}
+.hero-photo {
+   display: block;
+   max-height: 400px;
+   width: 100%;
+   border-radius: 5px 5px 0 0;
+   margin-bottom: 15px;
+}
+ul {
+   font-size: 16px;
+   font-weight: bold;
+   color: #2c2487;
+   list-style: none;
+   padding: 0;
+   margin: 5px 0 10px 0;
+}
+li {
+   padding-bottom: 5px;
+}
+h3 {
+   margin: 0;
+   font-size: 18px;
+}
+.hero-info span {
+   display: block;
+   font-size: 18px;
+}
